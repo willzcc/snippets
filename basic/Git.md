@@ -91,6 +91,9 @@ git config --global user.email ""
 git config --global core.editor ""
 git config --global -e # open global settings
 git config --global core.autocrlf "" # windows - true, mac - input
+
+git config --global core.editor "code --wait" //设置默认编辑器，启动后等待编辑器退出
+git config --global -e //用默认editor编辑global config
 ```
 
 ##### help messages
